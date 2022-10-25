@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma dos dois numeros</title>
+
+    <h2>Escreva um programa JavaScript para calcular a soma de dois números</h2>
+    <script>
+        function soma(){
+              var num1= document.getElementById("n1").value;
+              var num2= document.getElementById("n2").value;
+              var res= document.getElementById("res");
+              num1= parseInt(num1);
+              num2= parseInt(num2);
+               res.innerHTML= "resultado é:" +(num1+num2);      
+
+}
+    </script>
+</head>
+<body>
+      digite um numero <br/>
+      <input id="n1">  <br/>
+      digite um numero <br/>
+      <input id="n2">  <br/>
+      <button onclick="soma()">soma</button><br/>
+      <div id="res"></div><br/>
+
+      <img src="akira.PNG">
+</body>
+</html>

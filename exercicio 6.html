@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Escreva um programa JavaScript para determinar se um determinado ano é bissexto no calendário gregoriano</h2>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML =(year)">
+    Click me</button>
+
+    <p id="demo"></p>
+
+    <img src="vavalo.PNG">
+    <script>
+    function leapyear(year)
+        {
+            document.write(year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+        
+        
+        }
+       console.log = (leapyear(2016));
+       console.log = (leapyear(2000));
+       console.log = (leapyear(1700));
+       console.log = (leapyear(1800));
+       console.log = (leapyear(100));
+
+        
+        </script>
+        
+    
+</body>
+</html>
